@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/schimbay/MyMavenAppV2">
+        <classes>
+        <class name="FirstMavenV2.LoginTest"><methods>
+            <include name="validLog"/>
+        </methods>
+        </class>
+            <class name="FirstMavenV2.LogoutTest">
+        <methods><include name="logout"/>
+        </methods>
+    </class>
+    </classes>
+    </test>
+</suite>
